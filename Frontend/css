@@ -1,0 +1,192 @@
+/* Reset & Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #de9ad6 !important; /* light background */
+    color: #212529;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       margin: 0;
+    padding: 0;
+}
+/* Header */
+header {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    margin-top: 0;
+}
+/* Main container centering */
+.container {
+    max-width: 1100px;
+    margin: 30px auto; /* center content */
+    padding: 20px;
+}
+/* Cards layout */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.card {
+    flex: 1;
+    min-width: 250px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.bg-dark-card {
+    background-color: #495057;
+    color: white;
+}
+.bg-mid-card {
+    background-color: #adb5bd;
+    color: #212529;
+}
+/* Buttons */
+ .btn-custom {
+    display: inline-block;
+    background-color: #1f1f21; /* Black */
+    color: #dbe3ee; /* White text */
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.btn-custom:hover {
+    background-color: #333333; /* Dark gray hover */
+}
+/* Form sections */
+.form-section {
+    margin: 30px 0;
+}
+.form-section h2 {
+    margin-bottom: 15px;
+    color: #343a40;
+    font-size: 1.4rem;
+}
+/* Form layout */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+.form-grid input, 
+.form-grid select, 
+.form-grid button {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+table th {
+    background-color: #495057;
+    color: #f8f9fa;
+    padding: 12px;
+    text-align: left;
+    font-size: 1rem;
+}
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 0.95rem;
+}
+table tr:nth-child(odd) {
+    background-color: #e9ecef;
+}
+table tr:nth-child(even) {
+    background-color: #dee2e6;
+}
+table tr:hover {
+    background-color:#e9ecef ;
+}
+/* Custom buttons for Actions column */
+.btn-edit {
+    background-color:#161617 ;  
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.btn-edit:hover {
+    background-color: #333333; /* Darker green */
+}
+.btn-delete {
+    background-color:#161617; /* Red */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.btn-delete:hover {
+    background-color: /* Custom buttons for Actions column */
+.btn-edit {
+    background-color:#161617 ; /* Green */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.btn-edit:hover {
+    background-color: #333333;  
+}
+.btn-delete {
+    background-color:#e4374e;  
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.btn-delete:hover {
+    background-color: #e4374e;  
+}
+; /* Darker red */
+}
+.amount-box {
+    background-color: #000000; /* Black background */
+    color: #ffffff;            /* White text */
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
